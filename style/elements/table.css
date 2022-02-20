@@ -1,0 +1,19 @@
+@import "../utils/colors.css";
+
+table, td, th {
+    border: 4px var(--table-result-border-color) solid;
+    border-collapse: collapse;
+}
+
+main > section > table {
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+    color: var(--result-number-color);
+    font-size: 2em;
+    width: 100%;
+}
+
+main > section > table > tr > td, th {
+    padding: 10px;
+}
